@@ -10,7 +10,7 @@
 Then, we discuss the five phases of converting a candidate use case to be driven by machine learning, and consider why it is important the phases not be skipped. We end with a recognition of the biases that machine learning can amplify and how to recognize this.
 
 ### C02 - Launching into Machine Learning
- - [✔] [Launching into Machine Learning](https://www.coursera.org/learn/launching-machine-learning?specialization=machine-learning-tensorflow-gcp)
+ - [x] [Launching into Machine Learning](https://www.coursera.org/learn/launching-machine-learning?specialization=machine-learning-tensorflow-gcp)
 
 Starting from a history of machine learning, we discuss why neural networks today perform so well in a variety of data science problems. We then discuss how to set up a supervised learning problem and find a good solution using gradient descent. This involves creating datasets that permit generalization; we talk about methods of doing so in a repeatable way that supports experimentation.
 
@@ -22,7 +22,7 @@ Course Objectives:
 
 ### C03 - Introduction to TensorFlow
 
-- [ ] [Introduction to TensorFlow](https://www.coursera.org/learn/intro-tensorflow?specialization=machine-learning-tensorflow-gcp)
+- [✔] [Introduction to TensorFlow](https://www.coursera.org/learn/intro-tensorflow?specialization=machine-learning-tensorflow-gcp)
 
 This course is focused on using the flexibility and “ease  of use” of TensorFlow 2.x and Keras to build, train, and deploy machine learning models.  We will learn about the TensorFlow 2.x API hierarchy and will get to know the main components of TensorFlow through hands-on exercises.  We will introduce datasets and feature columns. We will learn how to design and build a TensorFlow 2.x input data pipeline. We will get hands-on practice loading csv data, numPy arrays, text data, and images using tf.Data.Dataset. Finally we will also get hands-on practice creating numeric, categorical, bucketized, and hashed feature columns.
 
