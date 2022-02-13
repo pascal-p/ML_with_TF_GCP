@@ -22,7 +22,7 @@ Course Objectives:
 
 ### C03 - Introduction to TensorFlow
 
-- [✔] [Introduction to TensorFlow](https://www.coursera.org/learn/intro-tensorflow?specialization=machine-learning-tensorflow-gcp)
+- [x] [Introduction to TensorFlow](https://www.coursera.org/learn/intro-tensorflow?specialization=machine-learning-tensorflow-gcp)
 
 This course is focused on using the flexibility and “ease  of use” of TensorFlow 2.x and Keras to build, train, and deploy machine learning models.  We will learn about the TensorFlow 2.x API hierarchy and will get to know the main components of TensorFlow through hands-on exercises.  We will introduce datasets and feature columns. We will learn how to design and build a TensorFlow 2.x input data pipeline. We will get hands-on practice loading csv data, numPy arrays, text data, and images using tf.Data.Dataset. Finally we will also get hands-on practice creating numeric, categorical, bucketized, and hashed feature columns.
 
@@ -30,7 +30,7 @@ Introduction to Keras Sequential API and the Keras Functional API will be presen
 
 ### C04 - Feature Engineering
 
-- [ ] [Feature Engineering](https://www.coursera.org/learn/feature-engineering?specialization=machine-learning-tensorflow-gcp)
+- [✔] [Feature Engineering](https://www.coursera.org/learn/feature-engineering?specialization=machine-learning-tensorflow-gcp)
 
 Want to know how you can improve the accuracy of a ML models? What about how to find which data columns make the most useful features? Welcome to Feature Engineering where we will discuss good vs bad features and how one can preprocess and transform them for optimal use in models.
 
