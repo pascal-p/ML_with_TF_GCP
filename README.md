@@ -30,13 +30,13 @@ Introduction to Keras Sequential API and the Keras Functional API will be presen
 
 ### C04 - Feature Engineering
 
-- [✔] [Feature Engineering](https://www.coursera.org/learn/feature-engineering?specialization=machine-learning-tensorflow-gcp)
+- [x] [Feature Engineering](https://www.coursera.org/learn/feature-engineering?specialization=machine-learning-tensorflow-gcp)
 
 Want to know how you can improve the accuracy of a ML models? What about how to find which data columns make the most useful features? Welcome to Feature Engineering where we will discuss good vs bad features and how one can preprocess and transform them for optimal use in models.
 
 ### C05 - Art and Science of Machine Learning
 
-- [ ] [Art and Science of Machine Learning](https://www.coursera.org/learn/art-science-ml?specialization=machine-learning-tensorflow-gcp)
+- [x] [Art and Science of Machine Learning](https://www.coursera.org/learn/art-science-ml?specialization=machine-learning-tensorflow-gcp)
 
 Welcome to the Art and Science of machine learning. This course is delivered in 6 modules. The course covers the essential skills of ML intuition, good judgment and experimentation needed to finely tune and optimize ML models for the best performance. We will learn how to generalize our model using Regularization techniques and about the effects of hyperparameters such as batch size and learning rate on model performance.  We’ll cover some of the most common model optimization algorithms and show how to specify an optimization method in our TensorFlow code.
 
