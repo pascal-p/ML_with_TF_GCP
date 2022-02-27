@@ -1,4 +1,4 @@
-## Machine Learning with TensorFlow on Google Cloud Specialization
+## ML with TensorFlow on Google Cloud Specialization
 
 [Machine Learning with TensorFlow on Google Cloud Specialization](https://www.coursera.org/specializations/machine-learning-tensorflow-gcp)
 
@@ -39,6 +39,23 @@ Want to know how you can improve the accuracy of a ML models? What about how to 
 - [x] [Art and Science of Machine Learning](https://www.coursera.org/learn/art-science-ml?specialization=machine-learning-tensorflow-gcp)
 
 Welcome to the Art and Science of machine learning. This course is delivered in 6 modules. The course covers the essential skills of ML intuition, good judgment and experimentation needed to finely tune and optimize ML models for the best performance. We will learn how to generalize our model using Regularization techniques and about the effects of hyperparameters such as batch size and learning rate on model performance.  We’ll cover some of the most common model optimization algorithms and show how to specify an optimization method in our TensorFlow code.
+
+## AML on Google Cloud Specialization
+
+[Advanced Machine Learning on Google Cloud Specialization](https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp)
+
+### C06 - End-to-End Machine Learning with TensorFlow on GCP
+
+ - [✔] [End-to-End Machine Learning with TensorFlow on GCP](https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp)
+
+ In the first course of this specialization, we will recap what was covered in the *Machine Learning with TensorFlow on Google Cloud Platform* Specialization (https://www.coursera.org/specializations/machine-learning-tensorflow-gcp).
+
+One of the best ways to review something is to work with the concepts and technologies that we have learned.
+So, this course is set up as a workshop and in this workshop, we will do End-to-End Machine Learning with TensorFlow on Google Cloud Platform
+
+
+### TBD...
+
 
 <hr />
 <p><sub><em>Feb 2022 Corto Inc</sub></em></p>
