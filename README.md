@@ -20,7 +20,7 @@ Course Objectives:
   - Mitigate common problems that arise in machine learning
   - Create repeatable and scalable training, evaluation, and test datasets
 
-- [Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C02)
+- [C02 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C02)
 
 
 ### C03 - Introduction to TensorFlow
@@ -31,7 +31,7 @@ This course is focused on using the flexibility and “ease  of use” of Tensor
 
 Introduction to Keras Sequential API and the Keras Functional API will be presented on order to define deep learning models. We’ll talk about activation functions, loss, and optimization. Our Jupyter Notebooks hands-on labs offer the opportunity to build basic linear regression, basic logistic regression, and advanced logistic regression machine learning models. We will learn how to train, deploy, and productionalize machine learning models at scale with Cloud AI Platform.
 
-- [Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C03)
+- [C03 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C03)
 
 ### C04 - Feature Engineering
 
@@ -39,7 +39,7 @@ Introduction to Keras Sequential API and the Keras Functional API will be presen
 
 Want to know how you can improve the accuracy of a ML models? What about how to find which data columns make the most useful features? Welcome to Feature Engineering where we will discuss good vs bad features and how one can preprocess and transform them for optimal use in models.
 
-- [Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C04)
+- [C04 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C04)
 
 ### C05 - Art and Science of Machine Learning
 
@@ -47,7 +47,7 @@ Want to know how you can improve the accuracy of a ML models? What about how to 
 
 Welcome to the Art and Science of machine learning. This course is delivered in 6 modules. The course covers the essential skills of ML intuition, good judgment and experimentation needed to finely tune and optimize ML models for the best performance. We will learn how to generalize our model using Regularization techniques and about the effects of hyperparameters such as batch size and learning rate on model performance.  We’ll cover some of the most common model optimization algorithms and show how to specify an optimization method in our TensorFlow code.
 
-- [Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C05)
+- [C05 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C05)
 
 ## AML on Google Cloud Specialization
 
@@ -61,6 +61,8 @@ Welcome to the Art and Science of machine learning. This course is delivered in 
 
 One of the best ways to review something is to work with the concepts and technologies that we have learned.
 So, this course is set up as a workshop and in this workshop, we will do End-to-End Machine Learning with TensorFlow on Google Cloud Platform
+
+- [C06 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C06)
 
 
 ### TBD...
