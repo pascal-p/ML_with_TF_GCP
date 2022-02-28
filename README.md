@@ -65,8 +65,49 @@ So, this course is set up as a workshop and in this workshop, we will do End-to-
 - [C06 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C06)
 
 
-### TBD...
+### C07 - Production Machine Learning Systems
+ - [Production Machine Learning Systems](https://www.coursera.org/learn/gcp-production-ml-systems)
 
+This course covers how to implement the various flavors of production ML systems: static, dynamic, and continuous training; static and dynamic inference; and batch and online processing.
+We delve into TensorFlow abstraction levels, the various options for doing distributed training, and how to write distributed training models with custom estimators.
+
+ - TBD...
+
+### C08 - Image Understanding with TensorFlow on GCP
+
+ - [ ] [Image Understanding with TensorFlow on GCP](https://www.coursera.org/learn/image-understanding-tensorflow-gcp)
+
+This is the third course of the Advanced Machine Learning on GCP specialization.
+In this course, We will take a look at different strategies for building an image classifier using convolutional neural networks. We'll improve the model's accuracy with augmentation, feature extraction, and fine-tuning hyperparameters while trying to avoid overfitting our data. We will also look at practical issues that arise, for example, when you don’t have enough data and how to incorporate the latest research findings into our models.
+We will get hands-on practice building and optimizing our own image classification models on a variety of public datasets in the labs we’ll work on together.
+ - TBD...
+
+### C09 - Sequence Models for Time Series and Natural Language Processing
+
+ - [ ] [Sequence Models for Time Series and Natural Language Processing](https://www.coursera.org/learn/sequence-models-tensorflow-gcp)
+
+This course is an introduction to sequence models and their applications, including an overview of sequence model architectures and how to handle inputs of variable length.
+  -  Predict future values of a time-series
+  -  Classify free form text
+  -  Address time-series and text problems with recurrent neural networks
+  -  Choose between RNNs/LSTMs and simpler models
+  -  Train and reuse word embeddings in text problems
+
+We will get hands-on practice building and optimizing your own text classification and sequence models on a variety of public datasets in the labs we’ll work on together.
+
+ - TBD...
+
+
+### C10 - Recommendation Systems with TensorFlow on GCP
+
+ - [ ] [Recommendation Systems with TensorFlow on GCP](https://www.coursera.org/learn/recommendation-models-gcp)
+
+In this course, we will apply our knowledge of classification models and embeddings to build a ML pipeline that functions as a recommendation engine.
+  -  Devise a content-based recommendation engine
+  -  Implement a collaborative filtering recommendation engine
+  -  Build a hybrid recommendation engine with user and content embeddings
+
+ - TBD...
 
 <hr />
-<p><sub><em>Feb 2022 Corto Inc</sub></em></p>
+<p><sub><em>Feb, Mar 2022 Corto Inc</sub></em></p>
