@@ -66,7 +66,7 @@ So, this course is set up as a workshop and in this workshop, we will do End-to-
 
 
 ### C07 - Production Machine Learning Systems
- - [✔] [Production Machine Learning Systems](https://www.coursera.org/learn/gcp-production-ml-systems)
+ - [X] [Production Machine Learning Systems](https://www.coursera.org/learn/gcp-production-ml-systems)
 
 This course covers how to implement the various flavors of production ML systems: static, dynamic, and continuous training; static and dynamic inference; and batch and online processing.
 We delve into TensorFlow abstraction levels, the various options for doing distributed training, and how to write distributed training models with custom estimators.
@@ -76,12 +76,12 @@ We delve into TensorFlow abstraction levels, the various options for doing distr
 
 ### C08 - Image Understanding with TensorFlow on GCP
 
- - [ ] [Image Understanding with TensorFlow on GCP](https://www.coursera.org/learn/image-understanding-tensorflow-gcp)
+ - [✔] [Image Understanding with TensorFlow on GCP](https://www.coursera.org/learn/image-understanding-tensorflow-gcp)
 
 This is the third course of the Advanced Machine Learning on GCP specialization.
 In this course, We will take a look at different strategies for building an image classifier using convolutional neural networks. We'll improve the model's accuracy with augmentation, feature extraction, and fine-tuning hyperparameters while trying to avoid overfitting our data. We will also look at practical issues that arise, for example, when you don’t have enough data and how to incorporate the latest research findings into our models.
 We will get hands-on practice building and optimizing our own image classification models on a variety of public datasets in the labs we’ll work on together.
- - TBD...
+  - [C08 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C08)
 
 
 ### C09 - Sequence Models for Time Series and Natural Language Processing
