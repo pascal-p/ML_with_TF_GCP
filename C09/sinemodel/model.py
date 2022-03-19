@@ -18,7 +18,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 # tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -91,17 +93,19 @@ def rnn2_model(hparams):
 
 
 # Read data and convert to needed format
-def read_dataset(filename, mode, batch_size = 512):
+def read_dataset(filename, mode, batch_size=512):
     def _input_fn():
         def decode_csv(row):
             # Row is a string tensor containing the contents of one row
-            features = tf.decode_csv(records = row, record_defaults = DEFAULTS)  # string tensor -> list of 50 rank 0 float tensors
+            features = tf.io.decode_csv(records = row, record_defaults = DEFAULTS)  # string tensor -> list of 50 rank 0 float tensors
             label = features.pop()  # remove last feature and use as label
             features = tf.stack(values = features, axis = 0)  # list of rank 0 tensors -> single rank 1 tensor
             return {TIMESERIES_COL: features}, label
 
         # Create list of file names that match "glob" pattern (i.e. data_file_*.csv)
         dataset = tf.data.Dataset.list_files(file_pattern = filename)
+        # dataset = tf.compat.v1.data.Dataset.list_files(file_pattern = filename)  ## select compat.v1 -> CHANGED: use tf.compat.v1
+        
         # Read in data from files
         dataset = dataset.flat_map(map_func = tf.data.TextLineDataset)
         # Parse text lines as comma-separated values (CSV)
@@ -115,10 +119,18 @@ def read_dataset(filename, mode, batch_size = 512):
 
         dataset = dataset.repeat(count = num_epochs).batch(batch_size = batch_size)
         return dataset.make_one_shot_iterator().get_next()
+        ## -> CHANGED: use tf.compat.v1
+        ## As per Release 2.0.0-alpha0, tf.data.Dataset.make_one_shot_iterator() has been deprecate in V1, 
+        ## removed from V2, and added to tf.compat.v1.data.make_one_shot_iterator().
+        ## return dataset.compat.v1.make_one_shot_iterator().get_next()
+        ##
     return _input_fn
 
 
 def serving_input_fn():
+    ## tf v2:
+    ## TIMESERIES_COL: tf.placeholder(dtype = tf.float32, shape = [None, N_INPUTS])
+    ## AttributeError: module 'tensorflow' has no attribute 'placeholder'
     feature_placeholders = {
         TIMESERIES_COL: tf.placeholder(dtype = tf.float32, shape = [None, N_INPUTS])
     }
@@ -153,6 +165,9 @@ def sequence_regressor(hparams):
 
 def train_and_evaluate(output_dir, hparams):
     tf.summary.FileWriterCache.clear() # ensure filewriter cache is clear for TensorBoard events file
+    ## tf v2: 
+    ## => AttributeError: module 'tensorboard.summary._tf.summary' has no attribute 'FileWriterCache'
+    ## cf. https://github.com/eriklindernoren/PyTorch-YOLOv3/commit/930c5872eea3d22233805f3f693dd5c9a9892707
     
     # Build Keras model
     model = sequence_regressor(hparams)
@@ -161,7 +176,8 @@ def train_and_evaluate(output_dir, hparams):
     model.compile(
         optimizer = "adam",
         loss = "mse",
-        metrics = ["mse"])
+        metrics = ["mse"]
+    )
         
     # Convert Keras model to an Estimator
     estimator = tf.keras.estimator.model_to_estimator(
