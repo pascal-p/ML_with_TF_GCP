@@ -86,7 +86,7 @@ We will get hands-on practice building and optimizing our own image classificati
 
 ### C09 - Sequence Models for Time Series and Natural Language Processing
 
- - [✔] [Sequence Models for Time Series and Natural Language Processing](https://www.coursera.org/learn/sequence-models-tensorflow-gcp)
+ - [x] [Sequence Models for Time Series and Natural Language Processing](https://www.coursera.org/learn/sequence-models-tensorflow-gcp)
 
 This course is an introduction to sequence models and their applications, including an overview of sequence model architectures and how to handle inputs of variable length.
   -  Predict future values of a time-series
@@ -102,14 +102,14 @@ We will get hands-on practice building and optimizing your own text classificati
 
 ### C10 - Recommendation Systems with TensorFlow on GCP
 
- - [ ] [Recommendation Systems with TensorFlow on GCP](https://www.coursera.org/learn/recommendation-models-gcp)
+ - [✔] [Recommendation Systems with TensorFlow on GCP](https://www.coursera.org/learn/recommendation-models-gcp)
 
 In this course, we will apply our knowledge of classification models and embeddings to build a ML pipeline that functions as a recommendation engine.
   -  Devise a content-based recommendation engine
   -  Implement a collaborative filtering recommendation engine
   -  Build a hybrid recommendation engine with user and content embeddings
 
- - TBD...
+ - [C10 - Notebooks](https://github.com/pascal-p/ML_wtih_TF_GCP/blob/main/C10)
 
 <hr />
 <p><sub><em>Feb, Mar 2022 Corto Inc</sub></em></p>
